@@ -1,4 +1,3 @@
-<?php
 @extends('adminlte::page')
 
 @section('title', 'Dashboard')
