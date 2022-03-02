@@ -247,6 +247,16 @@ return [
             'can'  => 'manage-blog',
         ],
         [
+            'text' => 'To Do\'s',
+            'url'  => 'todos',
+            'icon' => 'fas fa-fw fa-file',
+        ],
+        [
+            'text' => 'Calendar',
+            'url'  => 'calendar',
+            'icon' => 'fas fa-fw fa-calendar-alt',
+        ],
+        [
             'text'        => 'pages',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
