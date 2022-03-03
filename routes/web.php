@@ -22,9 +22,9 @@ Route::get('todos', function () {
 });
 
 Route::get('schedule', function () {
-    return view('welcome');
+    return view('calendar');
 });
 
 Route::get('board', function () {
-    return view('welcome');
+    return view('board');
 });
