@@ -1,8 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use App\Http\Controllers\TodoController;
+use Illuminate\Http\Request;
 use App\Models\Todo;
 
 class TodoController extends Controller
