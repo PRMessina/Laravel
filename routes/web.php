@@ -44,3 +44,11 @@ Route::get('/events-feed', function () {
     );
     return json_encode($data);
 });
+
+Route::get('/db-test', function () {
+    try {         
+         echo \DB::connection()->getDatabaseName();     
+    } catch (\Exception $e) {
+          echo 'None';
+    }
+});
