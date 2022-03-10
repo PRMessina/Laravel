@@ -25,6 +25,8 @@ Route::get('/board', function () {
     return view('board');
 });
 
+Route::resource('/todos', TodoController::class);
+
 Route::get('/events-feed', function () {
     $data = array(
         array(
@@ -53,5 +55,3 @@ Route::get('/db-migrate', function () {
     Artisan::call('migrate');
     echo Artisan::output();
 });
-
-Route::resource('/todos', TodoController::class);
